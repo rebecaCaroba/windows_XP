@@ -1,0 +1,56 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Windows XP </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="icon" href="midias/icone.png"> 
+</head>
+
+<body onload="load()">
+    <div id="menu" class="menu effect">
+        <nav>
+            <h1 id="bemvindo"> Bem vindo(a) </h1>
+            <a href="index.html" id="btmenu">index</a>
+            <a href="explorer.html" id="btmenu">explorer</a>
+            <a href="console.html" id="btmenu">consoles</a>
+        </nav>
+    </div>
+    <div>
+        <section id="abaexplorer">
+            <p id="titleappexplorer"> Lixeira </p>
+            <a href="index.html"><img src="midias/fechar.png" width="30px" id="fecharexplorer" title="fechar janela"></a>
+        </section>
+    </div>
+    <div id="explorer">
+        <iframe src="lixeiratext.html" id="textosapp"></iframe>
+    </div>
+    <div id="apps">
+        <a href="lixeira.html"><input type="image" src="midias/lixeira.png" width="70px" title="lixeira">
+        <p id="nomesdesk" style="margin-left: 8; margin-top: 0;">Lixeira</p></a><br>
+        <br><br>
+        <a href="explorer.html"><input type="image" src="midias/arquivos2.png" width="90px" title="explorer" style="margin-left: -10;">
+        <p id="nomesdesk" style="margin-left: 4; margin-top: 0;">Explorer</p></a><br>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <a href="#"><input type="image" src="midias/menu iniciar.png" width="180px" id="iniciar" title="iniciar"></a>
+                <div onmouseenter="fecharon()" onmouseleave="fecharleave()">
+                    <section id="section">
+                        <img src="midias/lixeira.png" width="35px" style="margin-left:25; margin-top: 2;" id="openappex" title="lixeira">
+                        <p id="titleapp" style="margin-left: 75;"> Lixeira </p>
+                        <a href="index.html"><img src="midias/fechar.png" width="30px" id="fechar" title="fechar janela"></a>
+                    </section>
+                </div>
+                <div onmouseenter="diaSemana()" onmouseleave="load()">
+                    <label id="relogio"> </label>
+                    <label id="calen"> </label>
+                </div>
+            </ul>
+        </nav>
+    </footer>
+    <script src="index.js"> </script>
+</body>
+
+</html>
