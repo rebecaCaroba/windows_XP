@@ -7,7 +7,7 @@ A small project, to teach a great history
 
 # Project
 
-**Work done by students from Etec de Poá - 1º INFONET 2022 💻**
+**Work done by students from Etec Poá - 1º INFONET 2022 💻**
 
 The project aims to transmit knowledge about "The History of Computing". The Windows XP interface was used as a teaching tool to improve the user experience,
 including interactive icons of the operating system itself, which when clicked open a tab with information.
